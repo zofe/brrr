@@ -1,0 +1,27 @@
+{
+    "name": "zofe/brrr",
+    "description": "crud experiments with burp laravel and some rapyd widget",
+    "homepage": "https://github.com/zofe/brrr",
+    "keywords": ["laravel", "crud", "brrr", "burp", "rapyd"],
+    "authors": [
+        {
+            "name": "zofe",
+            "email": "felice.ostuni@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "illuminate/support": "~5.0",
+        "illuminate/html": "~5.0",
+        "intervention/image": "2.*",
+        "zofe/burp": "3.*"
+    },
+    "autoload": {
+        "classmap": [
+            "migrations"
+        ],
+        "psr-4": {
+            "Zofe\\Brrr\\": "src/"
+        }
+    }
+}
